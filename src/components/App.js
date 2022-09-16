@@ -15,16 +15,17 @@ function Home() {
     </div>
   );
 }
-
-{/* write an <About> component here */}
+const About = () => {
+  return <div id="about">About</div>
+}
 
 
 function App() {
   return (
     <div>
       <NavBar />
-      {/* add the <Home> component here */}
-      {/* add your <About> component here */}
+      <Home />
+      <About />
     </div>
   );
 }
